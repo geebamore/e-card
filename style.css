@@ -121,4 +121,8 @@ width: 100%;
 
 #buttn{display: none;}
 
-   #svg_con{display: none;position: absolute; left: 47vw; top: 70vh; color: white; text-shadow: 2px 2px solid green; background-color: black;}}
+#svg_con{display: none;position: absolute; left: 40%; top: 65%; color: white; text-shadow: 2px 2px solid green; background-color: black;}}
+@media screen and (max-width: 768px ){
+    #svg_con{display: none;position: absolute; left: 0; top: 70vh; color: white; text-shadow: 2px 2px solid green; background-color: black;}}
+
+   }

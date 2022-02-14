@@ -24,10 +24,10 @@ for(var  i=0;i<ch.length;i++){
         text=ch.substring(i+2,ch.length);
         if(text!=""){
        var svg_con=document.querySelector('#svg_con');
-       var moretext="<p style='width:300px'>My love for you is beyond this universe. If the multiverse exists, then I love you on every alternate earth. Happy Valentine’s Day!<p>";
+       var moretext="<p style='width:200px'>My love for you is beyond this universe. If the multiverse exists, then I love you on every alternate earth. Happy Valentine’s Day!<p>";
         var firsttext="<h2>"+text+"</h2>";
-        var moretext1="<p style='width:300px'>The only thing I am sure about is being with you, now and forever. Happy Valentine’s Day!</p>";
-        var moretext2="<p style='width:300px'>I did not believe in love at first sight, but then I saw you. I have never been this happy after being proved wrong. Happy Valentine’s Day!</p>"
+        var moretext1="<p style='width:200px'>The only thing I am sure about is being with you, now and forever. Happy Valentine’s Day!</p>";
+        var moretext2="<p style='width:200px'>I did not believe in love at first sight, but then I saw you. I have never been this happy after being proved wrong. Happy Valentine’s Day!</p>"
         
         $("#buttn").show();
         setTimeout(function(){
